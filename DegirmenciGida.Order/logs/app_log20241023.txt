@@ -1,0 +1,50 @@
+2024-10-23 13:00:20.105 +03:00 [INF] Starting the web application
+2024-10-23 13:01:17.855 +03:00 [INF] OrderController Post method CreateOrder called!
+2024-10-23 13:01:48.088 +03:00 [INF] OrderController Post method CreateOrder called!
+2024-10-23 13:02:55.994 +03:00 [INF] OrderController Post method CreateOrder called!
+2024-10-23 13:18:10.386 +03:00 [INF] Starting the web application
+2024-10-23 13:24:17.159 +03:00 [INF] OrderController Post method CreateOrder called!
+2024-10-23 13:24:58.336 +03:00 [ERR] CreateOrderCommand failed!
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Text.Json.JsonElement.GetProperty(String propertyName)
+   at DegirmenciGida.Order.Application.Commands.Order.Create.CreateOrderCommand.CreateOrderCommandHandler.Handle(CreateOrderCommand request, CancellationToken cancellationToken) in F:\C#Konular\MicroServicesETicaret\DegirmenciGida.Order\DegirmenciGida.Order.Application\Commands\Order\Create\CreateOrderCommand.cs:line 59
+2024-10-23 13:25:10.087 +03:00 [INF] OrderController Post method CreateOrder called!
+2024-10-23 13:26:18.509 +03:00 [INF] Starting the web application
+2024-10-23 13:26:41.072 +03:00 [INF] OrderController Post method CreateOrder called!
+2024-10-23 13:28:05.638 +03:00 [INF] Starting the web application
+2024-10-23 13:28:22.425 +03:00 [INF] OrderController Post method CreateOrder called!
+2024-10-23 13:29:37.537 +03:00 [INF] Starting the web application
+2024-10-23 13:30:36.980 +03:00 [INF] OrderController Post method CreateOrder called!
+2024-10-23 13:31:24.856 +03:00 [ERR] CreateOrderCommand failed!
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'OrderId', table 'DegirmenciGida.Order.dbo.OrderDetail'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:c0caf73e-b49f-4a39-8021-e88f6698fe3f
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Persistence.Repositories.EfRepositoryBase`3.AddAsync(TEntity entity) in F:\C#Konular\MicroServicesETicaret\DegirmenciGida.Core\Persistence\Repositories\EfRepositoryBase.cs:line 29
+   at DegirmenciGida.Order.Application.Commands.Order.Create.CreateOrderCommand.CreateOrderCommandHandler.Handle(CreateOrderCommand request, CancellationToken cancellationToken) in F:\C#Konular\MicroServicesETicaret\DegirmenciGida.Order\DegirmenciGida.Order.Application\Commands\Order\Create\CreateOrderCommand.cs:line 78
+2024-10-23 13:32:31.815 +03:00 [INF] OrderController Post method CreateOrder called!
+2024-10-23 13:33:30.041 +03:00 [INF] CreateOrderCommand is Successful!
+2024-10-23 13:34:32.529 +03:00 [INF] OrderController Post method CreateOrder called!
+2024-10-23 13:35:44.626 +03:00 [INF] CreateOrderCommand is Successful!

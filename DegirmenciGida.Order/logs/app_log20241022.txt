@@ -1,0 +1,11 @@
+2024-10-22 15:50:08.025 +03:00 [INF] Starting the web application
+2024-10-22 15:52:43.443 +03:00 [INF] OrderController get method GetAllOrder called!
+2024-10-22 15:59:21.668 +03:00 [INF] Starting the web application
+2024-10-22 15:59:34.995 +03:00 [INF] OrderController get method GetAllOrder called!
+2024-10-22 16:00:15.289 +03:00 [INF] OrderController get method GetAllOrder called!
+2024-10-22 16:12:22.795 +03:00 [INF] Starting the web application
+2024-10-22 16:13:11.853 +03:00 [INF] OrderController get method GetAllOrder called!
+2024-10-22 16:13:59.840 +03:00 [INF] OrderController get method GetAllOrder called!
+2024-10-22 16:14:58.004 +03:00 [INF] OrderController get method GetOrderById called!
+2024-10-22 16:15:38.044 +03:00 [INF] OrderDetailController get method GetOrderDetailById called!
+2024-10-22 16:16:52.874 +03:00 [INF] OrderController get method GetOrderById called!

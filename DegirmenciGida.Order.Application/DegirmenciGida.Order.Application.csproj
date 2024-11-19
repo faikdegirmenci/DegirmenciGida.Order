@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DegirmenciGida.Order.Domain\DegirmenciGida.Order.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.10.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="MediatR" Version="12.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Application">
+      <HintPath>..\..\DegirmenciGida.Core\Application\bin\Debug\net6.0\Application.dll</HintPath>
+    </Reference>
+    <Reference Include="Infrastructure">
+      <HintPath>..\..\DegirmenciGida.Core\Infrastructure\bin\Debug\net6.0\Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Persistence">
+      <HintPath>..\..\DegirmenciGida.Core\Persistence\bin\Debug\net6.0\Persistence.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

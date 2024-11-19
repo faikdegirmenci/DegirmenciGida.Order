@@ -1,0 +1,19 @@
+2024-10-24 14:00:48.392 +03:00 [INF] Starting the web application
+2024-10-24 14:02:57.647 +03:00 [INF] OrderController Post method CreateOrder called!
+2024-10-24 14:03:39.217 +03:00 [INF] OrderController Post method CreateOrder called!
+2024-10-24 14:06:33.057 +03:00 [INF] OrderController Post method CreateOrder called!
+2024-10-24 14:07:46.013 +03:00 [INF] OrderController Post method CreateOrder called!
+2024-10-24 14:16:25.571 +03:00 [INF] Starting the web application
+2024-10-24 14:17:23.049 +03:00 [INF] OrderController Post method CreateOrder called!
+2024-10-24 14:24:16.431 +03:00 [INF] Starting the web application
+2024-10-24 14:26:12.660 +03:00 [INF] OrderController Post method CreateOrder called!
+2024-10-24 14:29:05.034 +03:00 [INF] OrderController Post method CreateOrder called!
+2024-10-24 14:30:40.554 +03:00 [INF] OrderController Post method CreateOrder called!
+2024-10-24 15:09:18.980 +03:00 [INF] Starting the web application
+2024-10-24 15:14:34.110 +03:00 [INF] OrderController Post method CreateOrder called!
+2024-10-24 15:16:11.085 +03:00 [INF] OrderController Post method CreateOrder called!
+2024-10-24 15:17:24.609 +03:00 [INF] OrderController Post method CreateOrder called!
+2024-10-24 15:21:03.379 +03:00 [INF] Starting the web application
+2024-10-24 15:21:33.676 +03:00 [INF] Starting the web application
+2024-10-24 15:21:47.162 +03:00 [INF] OrderController Post method CreateOrder called!
+2024-10-24 15:32:32.445 +03:00 [INF] OrderController Post method CreateOrder called!

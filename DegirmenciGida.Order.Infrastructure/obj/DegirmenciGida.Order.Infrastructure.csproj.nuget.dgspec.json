@@ -1,0 +1,264 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\C#Konular\\MicroServicesETicaret\\DegirmenciGida.Order\\DegirmenciGida.Order.Infrastructure\\DegirmenciGida.Order.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "F:\\C#Konular\\MicroServicesETicaret\\DegirmenciGida.Order\\DegirmenciGida.Order.Application\\DegirmenciGida.Order.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\C#Konular\\MicroServicesETicaret\\DegirmenciGida.Order\\DegirmenciGida.Order.Application\\DegirmenciGida.Order.Application.csproj",
+        "projectName": "DegirmenciGida.Order.Application",
+        "projectPath": "F:\\C#Konular\\MicroServicesETicaret\\DegirmenciGida.Order\\DegirmenciGida.Order.Application\\DegirmenciGida.Order.Application.csproj",
+        "packagesPath": "C:\\Users\\Faik\\.nuget\\packages\\",
+        "outputPath": "F:\\C#Konular\\MicroServicesETicaret\\DegirmenciGida.Order\\DegirmenciGida.Order.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Faik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\C#Konular\\MicroServicesETicaret\\DegirmenciGida.Order\\DegirmenciGida.Order.Domain\\DegirmenciGida.Order.Domain.csproj": {
+                "projectPath": "F:\\C#Konular\\MicroServicesETicaret\\DegirmenciGida.Order\\DegirmenciGida.Order.Domain\\DegirmenciGida.Order.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\C#Konular\\MicroServicesETicaret\\DegirmenciGida.Order\\DegirmenciGida.Order.Domain\\DegirmenciGida.Order.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\C#Konular\\MicroServicesETicaret\\DegirmenciGida.Order\\DegirmenciGida.Order.Domain\\DegirmenciGida.Order.Domain.csproj",
+        "projectName": "DegirmenciGida.Order.Domain",
+        "projectPath": "F:\\C#Konular\\MicroServicesETicaret\\DegirmenciGida.Order\\DegirmenciGida.Order.Domain\\DegirmenciGida.Order.Domain.csproj",
+        "packagesPath": "C:\\Users\\Faik\\.nuget\\packages\\",
+        "outputPath": "F:\\C#Konular\\MicroServicesETicaret\\DegirmenciGida.Order\\DegirmenciGida.Order.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Faik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\C#Konular\\MicroServicesETicaret\\DegirmenciGida.Order\\DegirmenciGida.Order.Infrastructure\\DegirmenciGida.Order.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\C#Konular\\MicroServicesETicaret\\DegirmenciGida.Order\\DegirmenciGida.Order.Infrastructure\\DegirmenciGida.Order.Infrastructure.csproj",
+        "projectName": "DegirmenciGida.Order.Infrastructure",
+        "projectPath": "F:\\C#Konular\\MicroServicesETicaret\\DegirmenciGida.Order\\DegirmenciGida.Order.Infrastructure\\DegirmenciGida.Order.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Faik\\.nuget\\packages\\",
+        "outputPath": "F:\\C#Konular\\MicroServicesETicaret\\DegirmenciGida.Order\\DegirmenciGida.Order.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Faik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\C#Konular\\MicroServicesETicaret\\DegirmenciGida.Order\\DegirmenciGida.Order.Application\\DegirmenciGida.Order.Application.csproj": {
+                "projectPath": "F:\\C#Konular\\MicroServicesETicaret\\DegirmenciGida.Order\\DegirmenciGida.Order.Application\\DegirmenciGida.Order.Application.csproj"
+              },
+              "F:\\C#Konular\\MicroServicesETicaret\\DegirmenciGida.Order\\DegirmenciGida.Order.Domain\\DegirmenciGida.Order.Domain.csproj": {
+                "projectPath": "F:\\C#Konular\\MicroServicesETicaret\\DegirmenciGida.Order\\DegirmenciGida.Order.Domain\\DegirmenciGida.Order.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
